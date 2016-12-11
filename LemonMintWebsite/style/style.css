@@ -1,0 +1,328 @@
+/* CSS by Lemon.Co for Lemon Mint Recipes */
+
+body {
+	background-color:#009b9f;
+	padding: 0px;
+	margin: 0px;
+	}
+
+/* Header CSS */
+#header {
+	background-color: #72c2c1;
+	width: 100%;
+	height: 50%;
+	margin-top: -10px;
+	margin-bottom: 0px;
+	padding: 0px;
+	text-align:center;
+	}
+	
+#header img {
+	width: 100%;
+	height: 150px;
+	}
+
+/* CSS for navigation icon */	
+#leftcol img{
+	float: left;
+	margin-left: 1%;
+	width: 12%;
+	background-color: white;
+	border-radius: 10px;
+	border: 4px solid #fff799;
+	position: fixed;
+	width: 74px;
+	height: 315px;
+	}
+
+/* CSS for content in middle column */	
+#content {
+	background-color: white;
+	border-radius: 10px;
+	border: 4px solid #fff799;
+	width: 65%;
+	float: left;
+	margin-left: 13%;
+	font-family: century gothic,helvetica, arial, sans-serif;
+	margin-bottom: 10px;
+	}
+	
+#content #backtotop a{
+	font-size: 13px;
+	text-decoration: none;
+	margin: 10px 10px;
+	}
+
+#content #readmore a {
+	text-decoration: none
+	}
+	
+#content table a{
+	text-decoration: none;
+	font-size: 12px;
+	padding: 0px 0px;
+	text-align: center;
+	}
+	
+#content h2 {
+	margin-left: 5px;
+	}
+
+/* Table for Recipes page */
+#content #recipe { 
+	margin: 40px auto;
+	font-size: 18px;
+	}
+	
+#content #recipe td {
+	padding: 20px 30px;
+	text-align: center;
+	}
+	
+#content #recipe a {
+	font-size: 14px;
+	color: #015254;
+	}
+	
+#content #recipe a:hover {
+	color: #009b9f;
+	}
+
+.bold {
+	font-weight: bold;
+	}
+
+/* CSS for right column */	
+#rightcol {
+	border: 4px solid #fff799;
+	border-radius: 10px;
+	width: 15%;
+	float: left;
+	background-color: white;
+	margin-left: 1.5%;
+	padding: 15px 5px;
+	font-family: century gothic,helvetica, arial, sans-serif;
+	}
+	
+#rightcol img#author {
+	width: 40%;
+	margin: 4px auto;
+	border-radius: 100%;
+	float: left;
+	}
+	
+#rightcol p.authordes {
+	display: inline;
+	}
+
+#rightcol p {
+	text-align: justify;
+	padding: 5px 5px;
+	}
+	
+#rightcol #update img {
+	width: 32px;
+	height: 32px;
+	display: inline;
+	} 
+	
+#rightcol p#update{
+	text-align: center;
+	}
+
+#rightcol ul {
+	list-style-type: none;
+	}
+	
+#rightcol img.website {
+	width: 95%;
+	}
+	
+#rightcol a{
+	text-decoration: none;
+	color: #72c2c1;
+	}
+	
+#rightcol a:hover {
+	color:#FF66CC;
+		}	
+
+/* CSS for footer */		
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: #015254;
+	text-align: center;
+	color: #fff799;
+	font-family: helvetica, arial, sans-serif;
+	padding-top: 0.5px;
+	padding-bottom: 0.5px;
+	}
+
+#footer p {
+	font-size: 11px;
+	}
+	
+#footer .italic {
+	font-style: italic;
+	}
+
+#footer ul li {
+	display: inline;
+	list-style-type: none;
+	padding: 10px 10px;
+	}	
+	
+#footer a{
+	text-decoration: none;
+	color: #fff799;
+	font-size: 13px;
+	}
+		
+#footer a:hover {
+	color:#72c2c1;
+	}
+
+h1 {
+	padding: 1%;
+	}
+	
+p, li {
+	padding-left: 1%;
+	font-size: 15px;
+	padding-bottom: 0px;
+	}
+	
+#date {
+	margin-top: 0px;
+	font-size: 12px;
+	color: grey;
+	}
+
+#title {
+	margin: 0px;
+	font-weight: bold;
+	font-size: 22px;
+	}
+
+#content img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	}
+
+hr {
+	width: 98%
+	}
+	
+	
+/* ---CSS for Navigation bar--- */
+#navbar {
+    display:block;
+}
+ 
+/*----- Menu Outline -----*/
+#menu {
+	width: 100%;
+	font-family: helvetica, arial, sans-serif;
+	margin-top: -17px;
+	text-align: center;
+	background-color: #015254;
+	}
+ 
+ 
+#menu li {
+    list-style-type:none;
+    margin: 0px 2%;   
+}
+
+#menu a {
+    transition:all linear 0.15s;
+    color: #fff799;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+#menu a:hover {
+    text-decoration:none;
+    color: #015254;
+}
+ 
+#menu .arrow {
+    font-size:9px;
+    line-height:0%;
+}
+ 
+/*--- Top Level Menu ---*/
+#menu > ul > li {
+    display:inline-block;
+    position:relative;
+    font-size:16px;
+}
+ 
+#menu > ul > li > a {
+    padding:15px 40px;
+    display:inline-block;
+    position: relative;
+}
+
+ 
+#menu > ul > li > a:hover {
+    background-color: #fff799;
+}
+ 
+/*--- Dropdown Menu ---*/
+ 
+ /* Hiding dropdown menu */
+#dropdownmenu {
+    width:130%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    background-color: #015254;
+}
+
+/* Display the menu when hover */
+#menu li:hover #dropdownmenu {
+    z-index:1;
+    opacity:1;
+    }
+ 
+#dropdownmenu li {
+    display:block;
+    font-size:14px;
+}
+ 
+#dropdownmenu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+ #dropdownmenu li a:hover {
+    background-color: #fff799;
+}
+
+/* Lemon.Co page design */
+#content table#lemonco {
+	padding-top: 10px;
+	table-layout: fixed;
+	}
+
+#content table tr td {
+	padding: 10px 5px;
+	}
+	
+#content table tr td img {
+	width: 70%;
+	}
+	
+button {
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	}
